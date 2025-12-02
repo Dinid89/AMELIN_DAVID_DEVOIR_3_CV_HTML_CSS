@@ -1,0 +1,83 @@
+main {
+    display: flex;
+}
+
+#left {
+    flex: 1;
+    width: 30%;
+    background-color: rgb(127, 127, 127, 0.1);
+    padding-left: 50px;
+}
+
+.skills {
+    width: 200px;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.starfilled {
+    color: rgb(23, 171, 179);
+}
+.star {
+    color: white;
+}
+
+.languages {
+    width: 200px;
+}
+
+.langue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.french, .spanish, .english {
+    font-weight: bold;
+}
+
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    padding-left: 50px;
+}
+
+#left hr {
+    width: 200px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;        
+    padding-left: 1rem;      
+}
+
+ul li {
+    position: relative;      
+    padding-left: 1.2rem;    
+}
+
+ul li::before {
+    content: "";             
+    position: absolute;
+    top: 0.5em;              
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: rgb(23, 171, 179);        
+}
+
+
+
+#right hr {
+    width: 700px;
+}
+
