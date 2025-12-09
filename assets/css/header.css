@@ -1,0 +1,72 @@
+header {
+    background-color: rgb(23, 171, 179);
+    color: white
+}
+
+.title {
+    color: white;
+}
+
+.favicon img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    object-fit: cover;
+    cursor:zoom-in;
+}
+
+.contact img {
+    filter: invert(1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.profil {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 12px 40px;                 
+  margin-top: 15px;
+  max-width: 420px;
+  margin-bottom: 20px;
+
+}
+
+.profil div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profil img {
+  width: 18px;
+  height: 18px;
+}
+
+
+.profil img {
+    width: 20px;
+    height: auto;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
